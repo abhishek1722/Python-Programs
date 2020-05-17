@@ -24,8 +24,8 @@ print("HCF of ",num1," and ",num2," is ",hcf)
 '''
 output:
 Enter two numbers :
-Enter first number :22
-Enter Second number :36
+Enter first number :12
+Enter Second number :14
 HCF of of 12 and 14 is 2.
 '''
 
