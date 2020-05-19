@@ -26,24 +26,29 @@ output:
 ****
 *****
 '''
-'''
+#pattern 3
 for i in range(1,6):
     print()
     for j in range(i,6):
         print(j,end="")
-        
+'''
+output:
 12345
 2345
 345
 45
 5        
 '''
-'''
+
+#Pattern 4
+
 for i in range(1,7):
     print()
     for j in range(1,i):
         print(j,end="")
-        
+'''
+output:
+
 1
 12
 123
