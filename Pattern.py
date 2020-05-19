@@ -54,7 +54,9 @@ output:
 123
 1234
 '''
-'''
+
+#pattern 5
+
 sp=5
 for i in range(1,6):
     print()
@@ -64,12 +66,15 @@ for i in range(1,6):
         print(j,end="")
         
     sp=sp-1
+'''
+output:
    1
   12
  123
 1234
 '''
-'''
+#Pattern 6
+
 sp=5
 for i in range(1,6):
     print()
@@ -80,13 +85,16 @@ for i in range(1,6):
         
     sp=sp-1
     
-   
+'''
+output:
+
    *
   **
  ***
 ****
 '''
-'''
+
+#Pattern 7
 n=1
 sp=4
 for i in range(1,6):
@@ -99,6 +107,8 @@ for i in range(1,6):
     sp=sp-1
     n=n+2
     
+'''
+output:
      *
     ***
    *****
