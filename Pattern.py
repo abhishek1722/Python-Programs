@@ -115,28 +115,34 @@ output:
   *******
  *********
 '''
-'''
+
+#patern 8
+
 n=1
 for i in range(1,6):
     print()
     for j in range(1,i+1):
         print(n,end="")
     n=n+1
-    
+'''
+output:
 1
 22
 333
 4444
 55555
 '''
-'''
+
+#pattern 9
+
 n=5
 for i in range(6,1,-1):#i=6
     print()
     for j in range(1,i):#j=1,5
         print(n,end="")
     n=n-1
-
+'''
+output:
 55555
 4444
 333
