@@ -1,13 +1,11 @@
-'''
-Created on 05-May-2020
+#program to print diffrent patterns
 
-@author: Toshinee Bhasin
-'''
-'''
 for i in range(1,6):
     print()
     for j in range(i,6):
         print('*',end="")
+'''
+output:
 
 *****
 ****
@@ -15,7 +13,7 @@ for i in range(1,6):
 **
 *
 '''
-'''
+#Pattern 2
 for i in range(1,6):
     print()
     for j in range(0,i):
