@@ -1,8 +1,5 @@
-'''
-Created on 18-May-2020
+#program to print calendar
 
-@author: Toshinee Bhasin
-'''
 import calendar
 '''
 print(calendar.weekheader(3))
