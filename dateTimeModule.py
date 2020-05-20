@@ -1,8 +1,3 @@
-'''
-Created on 20-May-2020
-
-@author: Toshinee Bhasin
-'''
 import datetime
 x = datetime.datetime.now()
 print(x)
