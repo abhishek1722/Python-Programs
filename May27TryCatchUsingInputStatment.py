@@ -1,9 +1,4 @@
-'''
-Created on 28-May-2020
-
-@author: Toshinee Bhasin
-'''
-'''
+#try catch using input statement
 
 a=int(input("Enter first number :"))
 b=int(input("Enter second number :"))
@@ -14,7 +9,7 @@ except ZeroDivisionError:
     print("Cannot divide a number by zero")
     
 print("Programs continues")
-
+'''
 output:
 Enter first number :10
 Enter second number :5
@@ -27,8 +22,7 @@ Enter first number :200
 Enter second number :0
 Cannot divide a number by zero
 Programs continues
-
---------------------------------
+'''
 
 a=int(input("Enter first number :"))
 b=[1,2,3]
@@ -41,12 +35,12 @@ except IndexError:
     print("Index out of bound")
 print("Programs continues")
 
-
+'''
 output:
 Enter first number : 10
 Index out of bound
 Programs continues
-----------------------------------------
+'''
 
 try:
     try:
@@ -58,7 +52,8 @@ try:
         
 except TypeError:
     print("Wrong String Operation")
-    
+
+'''
 output:
 Enter any string :Toshinee
 n
