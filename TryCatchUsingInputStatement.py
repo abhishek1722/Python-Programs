@@ -55,7 +55,7 @@ except TypeError:
 
 '''
 output:
-Enter any string :Toshinee
-n
+Enter any string :Abhishek
+h
 Wrong String Operation
 '''    
