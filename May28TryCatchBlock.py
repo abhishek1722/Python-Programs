@@ -1,9 +1,3 @@
-'''
-Created on 28-May-2020
-
-@author: Toshinee Bhasin
-'''
-'''
 # Try Catch Block(try within try block)
 try:
     l=[1,2,3]
@@ -20,17 +14,16 @@ except TypeError:
     print("Wrong string operations")
 finally:
     print("Finally of outer block executed")
-    
+
+'''
 output:
-enter any string :Toshinee
-n
+enter any string :Abhishek
+h
 Finally of inner block executed 
 Wrong string operations
 Finally of outer block executed
-
-
--------------------------------------------
-
+'''
+#try catch using function
 def readdata():
     n=int(input("Enter any natural number :"))
     if n<1:
@@ -45,7 +38,7 @@ except Exception as e:
     print("Error Message : ",e.args[0])
     print("Error no :",e.args[1])
 
-
+'''
 output:
 Enter any natural number :111
 Entered no is  111
@@ -57,7 +50,8 @@ Enter any natural number :0
 ('Natural number start with 1...', 707)
 Error Message :  Natural number start with 1...
 Error no : 707
--------------------------------------------------------
+'''
+#try catch using while loop
 while True:
     try:
         n=int(input("Enter any no. between 1 and 4 :"))
@@ -67,15 +61,16 @@ while True:
             print("No should be between 1 and 4 :")
     except Exception as e:
         print(e)
-
+'''
 output:
 Enter any no. between 1 and 4 :3
 or 
 Enter any no. between 1 and 4 :5
 No should be between 1 and 4 :
 Enter any no. between 1 and 4 :3
--------------------------------------
 '''
+
+#try catch block in function
 def divide(x,y):
     try:
         print(x/y)
@@ -104,40 +99,4 @@ finally of divide executed        ##when divide(10,0) called
 Exception caught : division by zero
 
 '''
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
