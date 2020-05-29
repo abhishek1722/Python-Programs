@@ -14,9 +14,9 @@ print("Entered invalid numbers :",invalid)
 output:
 Enter any number :0
 Enter any number :-7
-Enter any number :5
-Enter any number :9
-Enter any number :j
-Entered valid numbers : 4
-Entered invalid numbers : 1
+Enter any number :4
+Enter any number :a
+Enter any number :t
+Entered valid numbers : 3
+Entered invalid numbers : 2
 '''
