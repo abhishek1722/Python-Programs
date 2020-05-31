@@ -1,9 +1,4 @@
 '''
-Created on 31-May-2020
-
-@author: Toshinee Bhasin
-'''
-'''
 The key function for working with files in Python is the open() function.
 The open() function takes two parameters; filename, and mode.
 There are four different methods (modes) for opening a file:
@@ -29,14 +24,12 @@ This is text file for python.
 '''
 
 #Return the 5 first characters of the file:
-
 f = open("toshi.txt", "r")
 print(f.read(5))
 
 #output:Hello
 
 #Read two lines of the file:
-
 f = open("toshi.txt", "r")
 print(f.readline())
 print(f.readline())
@@ -49,7 +42,6 @@ This is text file for python.
 '''
 
 #Loop through the file line by line:
-
 f = open("toshi.txt", "r")
 for x in f:
     print(x)
@@ -61,46 +53,10 @@ This is text file for python.
 '''
     
 #Close the file when you are finish with it:
-
 f = open("toshi.txt", "r")
 print(f.readline())
 f.close()
 
 #output : Hello Everyone!!!!!!!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
